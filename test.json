@@ -1,0 +1,112 @@
+[
+  {
+    "emp_id": 100,
+    "first_name": "David",
+    "last_name": "Wallace",
+    "birth_date": "1967-11-17",
+    "sex": "M",
+    "salary": 250000,
+    "super_id": null,
+    "branch_id": 1
+  },
+  {
+    "emp_id": 101,
+    "first_name": "Jan",
+    "last_name": "Levinson",
+    "birth_date": "1961-05-11",
+    "sex": "F",
+    "salary": 110000,
+    "super_id": 100,
+    "branch_id": 1
+  },
+  {
+    "emp_id": 103,
+    "first_name": "Angela",
+    "last_name": "Martin",
+    "birth_date": "1971-06-25",
+    "sex": "F",
+    "salary": 63000,
+    "super_id": null,
+    "branch_id": null
+  },
+  {
+    "emp_id": 104,
+    "first_name": "Kelly",
+    "last_name": "Kapoor",
+    "birth_date": "1980-02-05",
+    "sex": "F",
+    "salary": 55000,
+    "super_id": null,
+    "branch_id": null
+  },
+  {
+    "emp_id": 105,
+    "first_name": "Stanley",
+    "last_name": "Hudson",
+    "birth_date": "1958-02-19",
+    "sex": "M",
+    "salary": 69000,
+    "super_id": null,
+    "branch_id": null
+  },
+  {
+    "emp_id": 106,
+    "first_name": "Josh",
+    "last_name": "Porter",
+    "birth_date": "1969-09-05",
+    "sex": "M",
+    "salary": 78000,
+    "super_id": 100,
+    "branch_id": 3
+  },
+  {
+    "emp_id": 107,
+    "first_name": "Andy",
+    "last_name": "Bernard",
+    "birth_date": "1973-07-22",
+    "sex": "M",
+    "salary": 65000,
+    "super_id": 106,
+    "branch_id": 3
+  },
+  {
+    "emp_id": 108,
+    "first_name": "Jim",
+    "last_name": "Halpert",
+    "birth_date": "1978-10-01",
+    "sex": "M",
+    "salary": 71000,
+    "super_id": 106,
+    "branch_id": 3
+  },
+  {
+    "emp_id": 109,
+    "first_name": "Oscan",
+    "last_name": "Martinez",
+    "birth_date": "1960-02-19",
+    "sex": "M",
+    "salary": 69000,
+    "super_id": 106,
+    "branch_id": 3
+  },
+  {
+    "emp_id": 110,
+    "first_name": "Kevin",
+    "last_name": "Malone",
+    "birth_date": "1970-02-19",
+    "sex": "M",
+    "salary": 96000,
+    "super_id": 106,
+    "branch_id": 3
+  },
+  {
+    "emp_id": 111,
+    "first_name": "Pan",
+    "last_name": "Beesly",
+    "birth_date": "1988-02-19",
+    "sex": "F",
+    "salary": 69000,
+    "super_id": 106,
+    "branch_id": 3
+  }
+]
