@@ -150,42 +150,20 @@ showMoreButton.addEventListener("click" , function() {
   search();
 });
 
+const buttonUp = document.getElementById('up');
 
+buttonUp.onclick = () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+  })
+}
+window.onscroll = () =>{
+  if(window.pageYOffset >= window.innerHeight * 2) {
+    buttonUp.style.display = "block";
 
-
-/*
-let imageBox = document.createElement("div");
-    imageBox.classList.add("image-box");
-  
-    let imgContainer = document.createElement("div");
-    imgContainer.classList.add("image");
-    let img = document.createElement("img");
-    img.src = img.imgSrc;
-    img.alt = img.imgAlt;
-  
-    imgContainer.appendChild(img);
-  
-    let size = document.createElement("div");
-    size.classList.add('size');
-    let width = document.createElement("span");
-    width.classList.add("width");
-    width.textContent = `Width : ${img.imgWidth}`
-    let height = document.createElement("span");
-    height.classList.add("height");
-    height.textContent = `Height : ${img.imgHeight}`;
-  
-    size.appendChild(width);
-    size.appendChild(height);
-  
-    let download = document.createElement("a");
-    download.classList.add("download");
-    download.href = img.linkHref;
-    download.textContent = `Download`;
-    download.setAttribute("target" ,"_blank");
-  
-    imageBox.appendChild(imgContainer);
-    imageBox.appendChild(size);
-    imageBox.appendChild(download);
-  
-    showResultContainer.appendChild(imageBox);
-    */
+  } else {
+    buttonUp.style.display = 'none';
+  }
+}
