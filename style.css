@@ -133,3 +133,17 @@ button ,
   margin-top: 10px;
   text-decoration: none;
 }
+
+button#up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 4px 6px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  display: none;
+  transform: .5s;
+}
